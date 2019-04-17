@@ -4,7 +4,8 @@
   "description": "- [Preview](https://laliquenoare.github.io/fe_on_feb19/)\r  - [PullRequest](https://github.com/Laliquenoare/fe_on_feb19/pull/1/files)",
   "main": "app.js",
   "scripts": {
-    "lint": "eslint --fix **/*.js"
+    "lint": "eslint --fix **/*.js",
+    "lintfix": "eslint --fix **/*.js"
   },
   "repository": {
     "type": "git",
