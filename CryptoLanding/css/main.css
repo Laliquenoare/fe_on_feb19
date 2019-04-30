@@ -23,10 +23,21 @@ body {
 
 
 .header__nav {
-  min-width: 502px;
+  width: 502px;
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+}
+
+#toggle {
+  display: none;
 }
 
 .header__menu {
@@ -171,6 +182,9 @@ body {
   padding-top: 72px;
 }
 
+.info-images img {
+  max-width: 100%;
+}
 .info-images {
   background: url(../img/point_bg.png) no-repeat;
   background-position: 27px 0;
@@ -218,7 +232,7 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 72px;
-  min-width: 1202px;
+  max-width: 1202px;
 }
 
 .wallet__text-headline {
@@ -251,6 +265,16 @@ body {
   font-size: 24px;
   line-height: 33px;
   color: #333333;
+}
+
+.wallet__text a:hover {
+  transition: .4s;
+  opacity: .9;
+  margin-left: 7px;
+}
+
+.wallet-images img{
+  max-width: 100%
 }
 
 .wallet-images {
@@ -296,7 +320,7 @@ body {
 form {
   position: relative;
   margin-top: 15px;
-  display:inline-block;
+
 }
 
 .footer__top-form a {
