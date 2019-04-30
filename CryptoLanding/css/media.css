@@ -56,7 +56,6 @@
 
   .wallet {
     margin-bottom: 20px;
-    justify-content: flex-start;
   }
 
   .wallet__text p {
@@ -158,7 +157,6 @@
   }
 
   .wallet {
-    justify-content: space-between;
     padding-right: 50px;
     padding-left: 50px;
   }

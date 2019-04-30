@@ -232,7 +232,6 @@ label {
   display: flex;
   justify-content: center;
   padding-top: 72px;
-  max-width: 1202px;
 }
 
 .wallet__text-headline {
@@ -292,7 +291,7 @@ label {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1202px;
+  width: 1202px;
   margin: 0 auto;
 }
 
