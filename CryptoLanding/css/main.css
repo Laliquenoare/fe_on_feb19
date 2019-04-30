@@ -217,7 +217,8 @@ body {
 .wallet {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 72px;
+  min-width: 1202px;
 }
 
 .wallet__text-headline {
@@ -227,16 +228,22 @@ body {
   display: flex;
   align-items: center;
   color: #076572;
+  max-width: 400px;
+  margin-bottom: 0;
 }
 
-.wallet__text{
-  margin-left: 40px;
+.wallet__text {
+  padding-top: 50px;
+  transform: translate(70px, 0);
 }
+
 .wallet__text p {
   font-weight: normal;
   font-size: 18px;
   line-height: 29px;
   color: #282D32;
+  margin-bottom: 98px;
+  margin-top: 2px;
 }
 
 .wallet__text a {
@@ -250,4 +257,102 @@ body {
   background: url(../img/point_bg.png) no-repeat;
   background-position: 0px 100px;
   padding: 55px 0 95px 170px;
+}
+
+.footer {
+  background-color: #30292F;
+}
+
+.footer__top,
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1202px;
+  margin: 0 auto;
+}
+
+.footer__top {
+  border-bottom: 1px solid rgba(218, 218, 218, 0.43);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer__top-address a {
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer__top-address div {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-top: 14px;
+}
+
+form {
+  position: relative;
+  margin-top: 15px;
+  display:inline-block;
+}
+
+.footer__top-form a {
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.footer__top-form input {
+  padding: 14px 119px 14px 19px;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(62, 61, 61, 0.5);
+  border: 0;
+
+
+}
+
+.footer__top-form .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background: #1768AC;
+  padding: 12.8px 17.91px 12.8px 17.91px;
+  border: 0;
+  cursor: pointer;
+}
+
+.footer__links {
+  padding-top: 19px;
+  padding-bottom: 34px;
+}
+
+.footer__links-about a {
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 31px;
+}
+
+.footer__links-faq a {
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 31px;
+}
+
+.footer a:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.footer__top-form .btn:hover {
+  background: rgb(55, 144, 218);
+  transition: .4s;
 }
