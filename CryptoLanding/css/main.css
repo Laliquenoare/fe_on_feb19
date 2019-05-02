@@ -185,6 +185,7 @@ label {
 .info-images img {
   max-width: 100%;
 }
+
 .info-images {
   background: url(../img/point_bg.png) no-repeat;
   background-position: 27px 0;
@@ -272,7 +273,7 @@ label {
   margin-left: 7px;
 }
 
-.wallet-images img{
+.wallet-images img {
   max-width: 100%
 }
 
@@ -308,6 +309,7 @@ label {
 }
 
 .footer__top-address div {
+  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 33px;
