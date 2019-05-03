@@ -145,7 +145,7 @@ label {
 
 .about__products-image {
   position: relative;
-  background: url(../img/about__products1.jpg) center center no-repeat / cover;
+  background: url(../img/crypto_hand.png) center center no-repeat / cover;
   max-width: 325px;
   height: 270px;
   border-radius: 2.8501px;
@@ -156,7 +156,7 @@ label {
   position: absolute;
   left: 70%;
   top: 50%;
-  background: url(../img/about__products2.jpg)center center no-repeat / cover;
+  background: url(../img/coins.png)center center no-repeat / cover;
   width: 325px;
   height: 270px;
   border-radius: 2.8501px;
