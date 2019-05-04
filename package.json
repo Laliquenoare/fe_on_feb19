@@ -1,0 +1,26 @@
+{
+  "name": "fe_on_feb19",
+  "version": "1.0.0",
+  "description": "- [Preview](https://laliquenoare.github.io/fe_on_feb19/)\r  - [PullRequest](https://github.com/Laliquenoare/fe_on_feb19/pull/1/files)",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "lintfix": "eslint --fix **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laliquenoare/fe_on_feb19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laliquenoare/fe_on_feb19/issues"
+  },
+  "homepage": "https://github.com/Laliquenoare/fe_on_feb19#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@mate-academy/eslint-config": "0.0.6",
+    "eslint": "^5.16.0",
+    "eslint-plugin-node": "^8.0.1"
+  }
+}

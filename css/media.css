@@ -1,0 +1,78 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1020px) {
+	.content__logo{
+        padding: 130px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	.header__logo_title{
+		font-size: 22px;
+	}
+	.header__menu_links-item{
+		font-size: 13px;
+	}
+	.header__menu_links{
+		width: 430px;
+	}
+	.content__text_paragraph {
+		line-height: 1.5em;
+		font-size: 16px;
+		letter-spacing: .5px;
+	}
+	
+	.content__text_title {
+		font-size: 22px;
+		letter-spacing: .4px;
+	}
+	.clients__item {
+		width: 130px;
+		height: 25px;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.content {
+		flex-direction: column;
+	}
+	.content__text_title {
+		font-size: 24px;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.clients {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.clients__item{
+		margin: 13px;
+		width: 175px;
+		height: 30px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  
+	  .header__menu{
+		display: none;
+	  }
+  
+}
+
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+
+
+}
+
+
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+
+	
+}
